@@ -108,11 +108,11 @@ $(document).ready(function() {
   }
   $(document).on('click', "#searchButton", function(e) {
     e.preventDefault();
-    getData('http://www.thecocktaildb.com/api/json/v1/1/search.php', 4, true);
+    getData('https://www.thecocktaildb.com/api/json/v1/1/search.php', 4, true);
 
   });
   $(document).on('click', ".lucky", function(e) {
     e.preventDefault();
-    getData('http://www.thecocktaildb.com/api/json/v1/1/random.php', 1, false);
+    getData('https://www.thecocktaildb.com/api/json/v1/1/random.php', 1, false);
   });
 });
